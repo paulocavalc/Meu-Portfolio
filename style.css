@@ -46,12 +46,13 @@ nav ul li {
 
 nav ul li a {
     color: #ffffff;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,  nav ul li a.active{
     color: #ff0000;
     transition: 0.5s;
 }
@@ -249,7 +250,6 @@ h5 {
     color: #ffffff;
     text-decoration: none;
     border: 2px solid transparent;
-    font-weight: bold;
     padding: 5px 20px;
     border-radius: 30px;
     transition: 0.5s;
