@@ -51,10 +51,6 @@ html {
         display: block;
         z-index: 999;
     }
-    .max-width {
-        max-width: 800px;
-        padding: 0 50px;
-    }
     .navbar .menu {
         position: fixed;
         width: 100%;
